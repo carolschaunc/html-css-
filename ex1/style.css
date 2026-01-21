@@ -19,7 +19,6 @@ body{
 background-color: var(--cor1);
 }
 
-
 header{
 background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
 min-height: 150px;
