@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+:root{
+--cor1:#c05a009d;
+--cor2:#ffffff;
+--cor3: #2e231b;
+--cor4: #ac5305;
+--cor5: #613c1b;
+--fontepadrão: Arial, Helvetica, sans-serif;
+--fontetitulo: Faculty Glyphic, sans-serif;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+background-color: var(--cor1);
+}
+
+
+header{
+background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
+min-height: 150px;
+padding-top: 40px;
+}
+
+header h1{
+  font-family: var(--fontetitulo);
+  font-weight: 400;
+  font-style: normal;
+  font-size:40px;
+  text-align: center;
+  color: var(--cor2);
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+nav{
+  background-color: var(--cor3);
+  padding: 10px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.26);
+}
+
+nav a{
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(255, 255, 255); 
+  font-weight: bolder;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+nav a:hover{
+  text-decoration: underline; color:rgb(255, 94, 0);
+background-color: #ffffff;
+}
+
+main{
+  font-family: var(--fontepadrão);
+  text-align: justify; 
+  min-width: 400;
+  max-width: 800;
+  background-color: #ffffff;
+  padding: 30px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+main p{
+  text-indent: 20px;
+  margin: 15px 0px;
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+main a{
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--cor5);
+  padding: 2px 4px;
+}
+
+main a:hover{
+  text-decoration: underline;
+  color: var(--cor4);
+}
+
+h2{ 
+    font-family: var(--fontetitulo);
+        font-weight: 400;
+        font-style: normal;
+        color:var(--cor3);
+        font-size: 1.7em;
+  }
+
+h3{font-family: var(--fontetitulo);
+        font-weight: 400;
+        font-style: normal;
+        color:var(--cor5);
+        font-size: 1.4em;
+}
+
+h4{font-family: var(--fontetitulo);
+        font-weight: 400;
+        font-style: normal;
+        color:var(--cor5);
+        font-size: 1.4em;
+}
+ul{
+  list-style-position: inside;
+  font-family: var(--fontepadrão);
+text-indent: 20px;
+  margin: 15px 0px;
+  text-align: justify;
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+footer{
+  color: #ffffff;
+  background-color:var(--cor5);
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+
